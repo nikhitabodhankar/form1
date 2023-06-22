@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <style>
+        fieldset{
+            height: 400px;
+            width: 350px;
+            position: relative;
+            left: 550px;
+            position: relative;
+            top: 70px;
+            background-image: url("sandip-karangiya-xhicmCpiATo-unsplash.jpg");
+            font-family: cursive;
+        }
+        .container{
+            text-align: center;
+            position: relative;
+            top: 20px;
+        }
+        .date{
+            position: relative;
+            right: 30px;
+        }
+        .phno{
+            position: relative;
+            left: 5px;
+        }
+        .bgimg{
+            
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="bgimg">
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <div class="container">
+        <div>Name: <input type="text"></div>
+        <br>
+        <div>Role: <input type="text"></div>
+        <br>
+        <div>Email: <input type="email"></div>
+        <br>
+        <div class="date">Date: <input type="date"></div>
+        <br>
+        <div class="phno">Ph. No.: <input type="number"></div>
+        <br>
+        <div>Are you Eligible: <input type="checkbox"></div>
+        <br>
+        <div>Gender :  Male <input type="radio" name="urgender">Female <input type="radio" name="urgender">Other <input type="radio" name="urgender"></div>
+        <br>
+        <div>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+        </div>
+        </div>
+        </fieldset>
+        </form>
+        </div>
+    
+</body>
+</html>
